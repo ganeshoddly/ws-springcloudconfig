@@ -1,0 +1,20 @@
+project
+    web
+    devtools
+    actuator
+    spring cloud config client
+    
+    application.properties
+        s.a.n=limits-service
+        s.port=8080
+    
+    restcontroller
+    
+    @Component
+    @ConfigurationProperties("limits-service") -> this is the prefix for properties in application.properties
+    class MyConfiguration
+    
+    @Autowired
+    MyConfiguration myConfig
+    
+    
