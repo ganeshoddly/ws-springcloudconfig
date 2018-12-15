@@ -17,4 +17,10 @@ project
     @Autowired
     MyConfiguration myConfig
     
-    
+    =====================================================
+    Connecting limits-service to git-config
+    =====================================================
+    rename application.properties to bootstrap.properties
+    in bootstrap.properties
+        spring.cloud.config.uri=http://localhost:8888
+        spring.profiles.active=qa => choose your default profile here
