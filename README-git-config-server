@@ -13,4 +13,6 @@ project
     git hub has limits-service.properties
     
     launch the app
-    browse -> l:8888/limits-service/default
+    browse -> l:8888/limits-service/default => displays limits-service.properties values
+    browse -> l:8888/limits-service/qa => displays limits-service-qa.properties values
+    
